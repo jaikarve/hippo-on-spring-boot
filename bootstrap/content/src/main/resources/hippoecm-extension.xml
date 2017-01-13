@@ -193,4 +193,60 @@
       <sv:value>/content/documents/hippoonspringboot</sv:value>
     </sv:property>
   </sv:node>
+<sv:node sv:name="hippo-on-spring-boot-content-documents-hippoonspringboot-content">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30401.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/hippoonspringboot/content.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/hippoonspringboot</sv:value>
+    </sv:property>
+  </sv:node>
+<sv:node sv:name="hippo-on-spring-boot-content-gallery-hippoonspringboot-products">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30501.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/gallery/hippoonspringboot/products.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/gallery/hippoonspringboot</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo-on-spring-boot-content-documents-hippoonspringboot-products">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30401.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/hippoonspringboot/products.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/hippoonspringboot</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo-on-spring-boot-content-documents-hippoonspringboot-newsfacets">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30401.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/hippoonspringboot/newsfacets.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/hippoonspringboot</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>

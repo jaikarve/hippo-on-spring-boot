@@ -4,26 +4,34 @@
       "new-banner-folder": "new banner folder",
       "new-banner-document": "new banner document",
       "new-news-document": "new news item",
+      "new-content-document": "new content document",
       "new-resource-bundle": "new resource bundle",
       "new-news-folder": "new news item folder",
-      "new-blog-folder": "new blog folder",
       "new-untranslated-folder": "new untranslated folder",
-      "new-blogauthor-folder": "new blog author folder",
       "new-blog-document": "new blog post",
-      "new-events-folder": "new events folder",
+      "new-hippoonspringboot-imageset-folder": "new folder",
+      "new-content-folder": "new content folder",
+      "new-hippoonspringboot-imageset-image": "New Image",
+      "new-blog-folder": "new blog folder",
+      "new-blogauthor-folder": "new blog author folder",
       "new-events-document": "new event",
+      "new-events-folder": "new events folder",
       "new-blogauthor-document": "new blog author"
     },
     "nl":     {
       "new-banner-folder": "nieuwe banner map",
       "new-banner-document": "nieuwe banner",
       "new-news-document": "nieuw nieuwsbericht",
+      "new-content-document": "nieuw content document",
       "new-resource-bundle": "nieuwe resource bundle",
       "new-news-folder": "nieuwe nieuwsmap",
-      "new-blog-folder": "nieuwe banner map",
       "new-untranslated-folder": "nieuwe onvertaalde map",
-      "new-blogauthor-folder": "nieuwe blog auteur map",
       "new-blog-document": "nieuwe blog post map",
+      "new-hippoonspringboot-imageset-folder": "nieuwe map",
+      "new-content-folder": "nieuwe contentmap",
+      "new-hippoonspringboot-imageset-image": "Nieuwe Afbeelding",
+      "new-blog-folder": "nieuwe banner map",
+      "new-blogauthor-folder": "nieuwe blog auteur map",
       "new-events-folder": "nieuwe evenementenmap",
       "new-events-document": "nieuw evenement",
       "new-blogauthor-document": "nieuwe blog auteur"
@@ -32,29 +40,45 @@
       "new-banner-folder": "Neuer Banner-Ordner",
       "new-banner-document": "Neues Banner",
       "new-news-document": "Neue News",
+      "new-content-document": "Neues Content-Document",
       "new-resource-bundle": "Neues Resource-Bundle",
       "new-news-folder": "Neuer News-Ordner",
-      "new-blog-folder": "Neuer Blog-Ordner",
       "new-untranslated-folder": "Neuer nicht übersetzter Ordner",
-      "new-blogauthor-folder": "Neuer Blogger-Ordner",
       "new-blog-document": "Neuer Blog-Post",
+      "new-hippoonspringboot-imageset-folder": "Neuer Ordner",
+      "new-content-folder": "Neuer Content-Ordner",
+      "new-hippoonspringboot-imageset-image": "Neues Bild",
+      "new-blog-folder": "Neuer Blog-Ordner",
+      "new-blogauthor-folder": "Neuer Blogger-Ordner",
       "new-events-folder": "Neuer Events-Ordner",
       "new-events-document": "Neues Event",
       "new-blogauthor-document": "Neuer Blogger"
+    },
+    "es":     {
+      "new-hippoonspringboot-imageset-image": "Nueva imagen",
+      "new-hippoonspringboot-imageset-folder": "nueva carpeta"
     },
     "fr":     {
       "new-banner-folder": "nouveau dossier bannière",
       "new-banner-document": "nouvelle bannière",
       "new-news-document": "nouveau message d'info",
+      "new-content-document": "nouveau document contenu",
       "new-resource-bundle": "nouveau resource bundle",
       "new-news-folder": "nouveau dossier messages d'info",
-      "new-blog-folder": "nouveau dossier post blog",
       "new-untranslated-folder": "nouveau dossier non traduit",
-      "new-blogauthor-folder": "nouveau dossier auteur blog",
       "new-blog-document": "nouveau post blog",
-      "new-events-folder": "nouveau dossier événements",
+      "new-hippoonspringboot-imageset-folder": "un nouveau dossier",
+      "new-content-folder": "nouveau dossier contenu",
+      "new-hippoonspringboot-imageset-image": "Nouvelle image",
+      "new-blog-folder": "nouveau dossier post blog",
+      "new-blogauthor-folder": "nouveau dossier auteur blog",
       "new-events-document": "nouvel événement",
-      "new-blogauthor-document": "nouvel auteur blog"
+      "new-blogauthor-document": "nouvel auteur blog",
+      "new-events-folder": "nouveau dossier événements"
+    },
+    "zh":     {
+      "new-hippoonspringboot-imageset-image": "新图片",
+      "new-hippoonspringboot-imageset-folder": "新文件夹"
     }
   },
   "hippo:types":   {
@@ -71,8 +95,8 @@
       },
       "nl":       {
         "hippoonspringboot:introduction": "Introductie",
-        "hippoonspringboot:title": "Titel",
         "jcr:name": "Evenement",
+        "hippoonspringboot:title": "Titel",
         "hippoonspringboot:date": "Startdatum",
         "hippoonspringboot:image": "Afbeelding",
         "hippoonspringboot:content": "Inhoud",
@@ -91,8 +115,8 @@
       },
       "de":       {
         "hippoonspringboot:introduction": "Einführung",
-        "hippoonspringboot:title": "Titel",
         "jcr:name": "Event",
+        "hippoonspringboot:title": "Titel",
         "hippoonspringboot:date": "Startdatum",
         "hippoonspringboot:image": "Abbildung",
         "hippoonspringboot:content": "Inhalt",
@@ -144,8 +168,8 @@
       },
       "nl":       {
         "hippoonspringboot:introduction": "Introductie",
-        "hippoonspringboot:title": "Titel",
         "jcr:name": "Nieuwsbericht",
+        "hippoonspringboot:title": "Titel",
         "hippoonspringboot:source": "Bron",
         "hippoonspringboot:date": "Datum",
         "hippoonspringboot:image": "Afbeelding",
@@ -166,21 +190,21 @@
       },
       "fr":       {
         "hippoonspringboot:introduction": "Introduction",
-        "hippoonspringboot:title": "Titre",
         "jcr:name": "Message d'info",
+        "hippoonspringboot:title": "Titre",
         "hippoonspringboot:source": "Source",
         "hippoonspringboot:date": "Date",
         "hippoonspringboot:image": "Image",
-        "hippoonspringboot:content": "Contenu",
         "hippoonspringboot:author": "Auteur",
+        "hippoonspringboot:content": "Contenu",
         "hippoonspringboot:location": "Lieu"
       }
     },
     "hippoonspringboot:blogpost":     {
       "en":       {
         "hippoonspringboot:introduction": "Introduction",
-        "hippoonspringboot:authors#hint": "Link to author document(s)",
         "hippoonspringboot:publicationdate": "Publication Date",
+        "hippoonspringboot:authors#hint": "Link to author document(s)",
         "hippoonspringboot:title": "Title",
         "jcr:name": "Blogpost",
         "hippoonspringboot:content": "Content",
@@ -201,8 +225,8 @@
         "hippoonspringboot:introduction": "Introduction",
         "hippoonspringboot:authors#hint": "Lien vers le(s) document(s) de l'auteur",
         "hippoonspringboot:publicationdate": "Date de publication",
-        "hippoonspringboot:title": "Titre",
         "jcr:name": "Post blog",
+        "hippoonspringboot:title": "Titre",
         "hippoonspringboot:content": "Contenu",
         "hippoonspringboot:authors": "Auteur(s)",
         "hippoonspringboot:categories": "Catégories"
@@ -211,8 +235,8 @@
         "hippoonspringboot:introduction": "Einführung",
         "hippoonspringboot:authors#hint": "Link zu Verfasserdokument(en)",
         "hippoonspringboot:publicationdate": "Publikationsdatum",
-        "hippoonspringboot:title": "Titel",
         "jcr:name": "Blog-Post",
+        "hippoonspringboot:title": "Titel",
         "hippoonspringboot:content": "Inhalt",
         "hippoonspringboot:authors": "Verfasser",
         "hippoonspringboot:categories": "Kategorien"
@@ -222,9 +246,9 @@
       "en":       {
         "hippoonspringboot:photo": "Photo",
         "jcr:name": "Author",
-        "hippoonspringboot:accounts#hint": "External social media accounts",
-        "hippoonspringboot:role": "Role",
         "hippoonspringboot:fullname": "Name",
+        "hippoonspringboot:role": "Role",
+        "hippoonspringboot:accounts#hint": "External social media accounts",
         "hippoonspringboot:content#hint": "Information about the author",
         "hippoonspringboot:content": "Description",
         "hippoonspringboot:fullname#hint": "Full name",
@@ -264,8 +288,8 @@
         "hippoonspringboot:content#hint": "Informationen über den Verfasser",
         "hippoonspringboot:content": "Beschreibung",
         "hippoonspringboot:fullname#hint": "Vollständiger Name",
-        "hippoonspringboot:photo#hint": "Foto des Verfassers",
-        "hippoonspringboot:accounts": "Comptes"
+        "hippoonspringboot:accounts": "Comptes",
+        "hippoonspringboot:photo#hint": "Foto des Verfassers"
       }
     },
     "hippoonspringboot:account":     {
@@ -289,9 +313,39 @@
       },
       "de":       {
         "hippoonspringboot:link": "Link",
-        "hippoonspringboot:type": "Art",
         "jcr:name": "Konto (Compound)",
-        "hippoonspringboot:link#hint": "Externer Link zum Konto"
+        "hippoonspringboot:link#hint": "Externer Link zum Konto",
+        "hippoonspringboot:type": "Art"
+      }
+    },
+    "hippoonspringboot:contentdocument":     {
+      "en":       {
+        "hippoonspringboot:introduction": "Introduction",
+        "hippoonspringboot:content": "Content",
+        "hippoonspringboot:publicationdate": "Publication date",
+        "hippoonspringboot:title": "Title",
+        "jcr:name": "Simple Document"
+      },
+      "nl":       {
+        "hippoonspringboot:introduction": "Introductie",
+        "hippoonspringboot:content": "Inhoud",
+        "hippoonspringboot:publicationdate": "Publicatiedatum",
+        "hippoonspringboot:title": "Titel",
+        "jcr:name": "Eenvoudig Document"
+      },
+      "fr":       {
+        "hippoonspringboot:introduction": "Introduction",
+        "hippoonspringboot:content": "Contenu",
+        "hippoonspringboot:publicationdate": "Date de publication",
+        "hippoonspringboot:title": "Titre",
+        "jcr:name": "Document simple"
+      },
+      "de":       {
+        "hippoonspringboot:introduction": "Einführung",
+        "hippoonspringboot:content": "Inhalt",
+        "hippoonspringboot:publicationdate": "Publikationsdatum",
+        "hippoonspringboot:title": "Titel",
+        "jcr:name": "Einfaches Dokument"
       }
     }
   }

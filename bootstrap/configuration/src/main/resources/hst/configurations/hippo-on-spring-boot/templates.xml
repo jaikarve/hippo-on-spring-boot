@@ -74,4 +74,108 @@
       <sv:value>webfile:/freemarker/hippoonspringboot/blog/blog-detail.ftl</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="search-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/hippoonspringboot/search-main.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="contentlist-main-contentlist">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/hippoonspringboot/contentlist-main-contentlist.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="twocolumns-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/hippoonspringboot/twocolumns-main.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="twocolumns-right-menu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/hippoonspringboot/twocolumns-right-menu.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="productpage-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/hippoonspringboot/productpage-main.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="productslist">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/hippoonspringboot/productslist.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="featured-products">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/hippoonspringboot/featured-products.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="three-column">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/hippoonspringboot/three-column.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="landing">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/hippoonspringboot/landing.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="vari-column.ftl">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/hippoonspringboot/vari-column.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="two-column">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/hippoonspringboot/two-column.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="faceted-navigation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/hippoonspringboot/faceted-navigation.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="newspage-relatednews">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/hippoonspringboot/newspage-relatednews.ftl</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>

@@ -1,4 +1,5 @@
 <'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippogallery'='http://www.onehippo.org/jcr/hippogallery/nt/2.0'>
 <'hippoonspringboot'='http://www.onehippo.org/hippoonspringboot/nt/1.0'>
 <'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
@@ -19,9 +20,18 @@
 [hippoonspringboot:blogpost] > hippoonspringboot:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
+[hippoonspringboot:contentdocument] > hippoonspringboot:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
 [hippoonspringboot:eventsdocument] > hippoonspringboot:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
+[hippoonspringboot:imageset] > hippogallery:imageset, hippogallery:relaxed
+  orderable
+
 [hippoonspringboot:newsdocument] > hippoonspringboot:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[hippoonspringboot:product] > hippoonspringboot:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 

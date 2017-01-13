@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="vari-column" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hst:prototypemeta</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>9a2def30-decb-4d3b-8635-7b7b52711741</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:displayname" sv:type="String">
+        <sv:value>Theme page - Varying columns</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:referencecomponent" sv:type="String">
+        <sv:value>hst:abstractpages/base</sv:value>
+    </sv:property>
+    <sv:node sv:name="main">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>d9eab092-d62c-4cd9-af20-c19644ff84b1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>vari-column.ftl</sv:value>
+        </sv:property>
+        <sv:node sv:name="hero">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>eb92b6d1-cb08-4c31-b5a6-19aab09ebd86</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.vBox</sv:value>
+            </sv:property>
+        </sv:node>
+        <sv:node sv:name="left1">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>e2874ec7-8344-464c-920e-2abcbeaafdd8</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.vBox</sv:value>
+            </sv:property>
+        </sv:node>
+        <sv:node sv:name="right1">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>a0d18ccd-59e0-48a9-b98a-adba8ef30b78</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.vBox</sv:value>
+            </sv:property>
+        </sv:node>
+        <sv:node sv:name="left2">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>5a786a5b-0cdf-460e-9340-c1896cd2a239</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.vBox</sv:value>
+            </sv:property>
+        </sv:node>
+        <sv:node sv:name="right2">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>ec534e52-868e-4bc0-8f11-20a587dbf4c5</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.vBox</sv:value>
+            </sv:property>
+        </sv:node>
+        <sv:node sv:name="left3">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>82ca1412-954f-47b5-b2c7-949ba4187f07</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.vBox</sv:value>
+            </sv:property>
+        </sv:node>
+        <sv:node sv:name="right3">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>85a0bbe1-69b8-4ad9-947c-2fffc778e2cd</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.vBox</sv:value>
+            </sv:property>
+        </sv:node>
+        <sv:node sv:name="left4">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>89e89e98-ddac-47c7-be21-4bf72318ec24</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.vBox</sv:value>
+            </sv:property>
+        </sv:node>
+        <sv:node sv:name="right4">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>c93fe2ea-edc2-47fc-983c-7e21d862eafe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.vBox</sv:value>
+            </sv:property>
+        </sv:node>
+        <sv:node sv:name="left5">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>57d5ad1f-6456-43de-96ac-de0092de92ab</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.vBox</sv:value>
+            </sv:property>
+        </sv:node>
+        <sv:node sv:name="center5">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>6faa87e2-3b5a-4638-abbe-1d0f1f6b7373</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.vBox</sv:value>
+            </sv:property>
+        </sv:node>
+        <sv:node sv:name="right5">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>cb92b417-c599-45f4-8693-3183e9e1446a</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.vBox</sv:value>
+            </sv:property>
+        </sv:node>
+        <sv:node sv:name="bottom">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>8388b939-64cd-465f-9b23-4ea1a100910e</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.vBox</sv:value>
+            </sv:property>
+        </sv:node>
+    </sv:node>
+</sv:node>

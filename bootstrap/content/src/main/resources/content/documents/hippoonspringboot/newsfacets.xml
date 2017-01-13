@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="newsfacets">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippofacnav:facetnavigation</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:count" sv:type="Long">
+    <sv:value>3</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:docbase" sv:type="String">
+    <sv:value>d38c1b73-a2e7-4c18-b68f-891abbccce42</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:facetnodenames" sv:type="String" sv:multiple="true">
+    <sv:value>Location</sv:value>
+    <sv:value>Author</sv:value>
+    <sv:value>Year</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:facets" sv:type="String" sv:multiple="true">
+    <sv:value>hippoonspringboot:location</sv:value>
+    <sv:value>hippoonspringboot:author</sv:value>
+    <sv:value>hippoonspringboot:date$year</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:filters" sv:type="String" sv:multiple="true">
+    <sv:value>jcr:primaryType=hippoonspringboot:newsdocument</sv:value>
+  </sv:property>
+</sv:node>
