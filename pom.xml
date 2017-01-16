@@ -70,10 +70,14 @@
     <junit.version>4.10</junit.version>
     <easymock.version>3.1</easymock.version>
 
+    <forge.exdocpickerbase.version>3.1.1</forge.exdocpickerbase.version>
+
     <repo.bootstrap>true</repo.bootstrap>
     <content-module-deploy-dir>shared/lib</content-module-deploy-dir>
 
     <hippo.cms.locales>nl,de,fr,es,zh</hippo.cms.locales>
+
+    <google-api-services-youtube.version>v3-rev172-1.22.0</google-api-services-youtube.version>
 
   </properties>
 
@@ -87,6 +91,11 @@
       <id>hipshoot-maven-repo</id>
       <name>hipshoot Maven 2 Repository</name>
       <url>http://forge.onehippo.org/svn/hipshoot/maven2/</url>
+    </repository>
+    <repository>
+      <id>exdocpickerbase-maven-repo</id>
+      <name>Hippo CMS External Document Picker Base Maven 2 Repository</name>
+      <url>http://forge.onehippo.org/svn/exdocpickerbase/maven2/</url>
     </repository>
   </repositories>
 
@@ -152,6 +161,18 @@
         <artifactId>easymock</artifactId>
         <version>${easymock.version}</version>
         <scope>test</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.onehippo.forge.exdocpickerbase</groupId>
+        <artifactId>exdocpickerbase-field</artifactId>
+        <version>${forge.exdocpickerbase.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.google.apis</groupId>
+        <artifactId>google-api-services-youtube</artifactId>
+        <version>${google-api-services-youtube.version}</version>
       </dependency>
 
     </dependencies>

@@ -5,10 +5,25 @@
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
 <'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
 
-[hippoonspringboot:account] > hippo:compound, hippostd:relaxed
+[hippoonspringboot:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
   orderable
 
-[hippoonspringboot:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+[hippoonspringboot:MarketInsight] > hippoonspringboot:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[hippoonspringboot:MoreLikeThisCompound] > hippo:compound, hippostd:relaxed
+  orderable
+
+[hippoonspringboot:MoreLikeThisMaster] > hippoonspringboot:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[hippoonspringboot:RichTextSnippet] > hippoonspringboot:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[hippoonspringboot:Video] > hippoonspringboot:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[hippoonspringboot:account] > hippo:compound, hippostd:relaxed
   orderable
 
 [hippoonspringboot:author] > hippoonspringboot:basedocument, hippostd:relaxed, hippotranslation:translated

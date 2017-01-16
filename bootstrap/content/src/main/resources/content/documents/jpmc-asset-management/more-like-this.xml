@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="more-like-this">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:versionable</sv:value>
+    <sv:value>hippo:named</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>d122cc0a-a852-48c1-8697-e5fff3e7a6c5</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:name" sv:type="String">
+    <sv:value>More Like This</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>62b55213-d71a-4e09-be55-9eed43f4d862</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="more-insights">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>3d3dfead-b39b-4e60-8009-75628ae8c9b5</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>More Insights</sv:value>
+    </sv:property>
+    <sv:node sv:name="more-insights">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippoonspringboot:MoreLikeThisMaster</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>911d18e9-88d1-45bc-ba36-5ded9792f6a5</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>more-like-this/more-insights/more-insights[3]</sv:value>
+        <sv:value>more-like-this/more-insights/more-insights[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-01-16T10:52:07.002-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-01-16T10:52:08.263-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>516b114f-04a9-4602-959e-eb14e42c0f3f</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippoonspringboot:moreLikeThis">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippoonspringboot:caption" sv:type="String">
+          <sv:value>Building better fixed income portfolios</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>02c71c3d-af42-4ce2-9c19-c486fa06bda4</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:moreLikeThis">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippoonspringboot:caption" sv:type="String">
+          <sv:value>Target Date Compass</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>10ede0e9-a7cd-41d7-bc58-17a50981f964</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:moreLikeThis">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippoonspringboot:caption" sv:type="String">
+          <sv:value>Diversified U.S. Equity Blend</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>59161eaf-40e4-46e2-b8f3-a9ebfacef09d</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="more-insights">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippoonspringboot:MoreLikeThisMaster</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5ebdf222-bb3a-4677-a279-b1ae7037dc26</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>more-like-this/more-insights/more-insights[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-01-16T10:52:07.002-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-01-16T10:55:38.573-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>516b114f-04a9-4602-959e-eb14e42c0f3f</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippoonspringboot:moreLikeThis">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippoonspringboot:caption" sv:type="String">
+          <sv:value>Building better fixed income portfolios</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>02c71c3d-af42-4ce2-9c19-c486fa06bda4</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:moreLikeThis">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippoonspringboot:caption" sv:type="String">
+          <sv:value>Target Date Compass</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>10ede0e9-a7cd-41d7-bc58-17a50981f964</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:moreLikeThis">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippoonspringboot:caption" sv:type="String">
+          <sv:value>Diversified U.S. Equity Blend</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>59161eaf-40e4-46e2-b8f3-a9ebfacef09d</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="more-insights">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippoonspringboot:MoreLikeThisMaster</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5c4e5ea1-d365-41ba-b2fc-b7f1184219f2</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>more-like-this/more-insights/more-insights[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-01-16T10:52:07.002-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-01-16T10:55:38.573-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2017-01-16T10:55:44.487-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>516b114f-04a9-4602-959e-eb14e42c0f3f</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippoonspringboot:moreLikeThis">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippoonspringboot:caption" sv:type="String">
+          <sv:value>Building better fixed income portfolios</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>02c71c3d-af42-4ce2-9c19-c486fa06bda4</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:moreLikeThis">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippoonspringboot:caption" sv:type="String">
+          <sv:value>Target Date Compass</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>10ede0e9-a7cd-41d7-bc58-17a50981f964</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:moreLikeThis">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippoonspringboot:caption" sv:type="String">
+          <sv:value>Diversified U.S. Equity Blend</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>59161eaf-40e4-46e2-b8f3-a9ebfacef09d</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="resources">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>bd5e1d26-a7e3-41c8-a48e-7aa08ba58d5b</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Resources</sv:value>
+    </sv:property>
+    <sv:node sv:name="resources">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippoonspringboot:MoreLikeThisMaster</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>c87b4c50-dfa3-4aec-b302-0edd0bf755d6</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>more-like-this/resources/resources[3]</sv:value>
+        <sv:value>more-like-this/resources/resources[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-01-16T13:29:56.073-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-01-16T13:29:56.151-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>8eb4a8db-a8c5-4a43-b83c-d742d8671d3b</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippoonspringboot:moreLikeThis">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippoonspringboot:caption" sv:type="String">
+          <sv:value>Target Date Investing Roadmap</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>e8fe6e3e-28cd-4cec-815f-362b8a33511c</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:moreLikeThis">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippoonspringboot:caption" sv:type="String">
+          <sv:value>Guide to the Markets</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>8a58f6bb-8586-49b9-be30-f1fed180b91d</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:moreLikeThis">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippoonspringboot:caption" sv:type="String">
+          <sv:value>Guide to Retirement</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>88a708c5-879a-4fd8-9e8e-887e07b23402</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="resources">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippoonspringboot:MoreLikeThisMaster</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>f17572a4-7637-489d-b4b0-2c6901daa110</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>more-like-this/resources/resources[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-01-16T13:29:56.073-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-01-16T13:32:42.412-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>8eb4a8db-a8c5-4a43-b83c-d742d8671d3b</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippoonspringboot:moreLikeThis">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippoonspringboot:caption" sv:type="String">
+          <sv:value>Target Date Investing Roadmap</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>e8fe6e3e-28cd-4cec-815f-362b8a33511c</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:moreLikeThis">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippoonspringboot:caption" sv:type="String">
+          <sv:value>Guide to the Markets</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>8a58f6bb-8586-49b9-be30-f1fed180b91d</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:moreLikeThis">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippoonspringboot:caption" sv:type="String">
+          <sv:value>Guide to Retirement</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>88a708c5-879a-4fd8-9e8e-887e07b23402</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="resources">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippoonspringboot:MoreLikeThisMaster</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ac6e85e8-6f92-4c1f-bc5d-ba9a5d65f0f6</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>more-like-this/resources/resources[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-01-16T13:29:56.073-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-01-16T13:32:42.412-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2017-01-16T13:32:44.308-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>8eb4a8db-a8c5-4a43-b83c-d742d8671d3b</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippoonspringboot:moreLikeThis">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippoonspringboot:caption" sv:type="String">
+          <sv:value>Target Date Investing Roadmap</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>e8fe6e3e-28cd-4cec-815f-362b8a33511c</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:moreLikeThis">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippoonspringboot:caption" sv:type="String">
+          <sv:value>Guide to the Markets</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>8a58f6bb-8586-49b9-be30-f1fed180b91d</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:moreLikeThis">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippoonspringboot:caption" sv:type="String">
+          <sv:value>Guide to Retirement</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>88a708c5-879a-4fd8-9e8e-887e07b23402</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

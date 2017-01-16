@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="text-snippets">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:versionable</sv:value>
+    <sv:value>hippo:named</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>b1b815f0-af5c-40bf-8fa9-592d252948d4</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:name" sv:type="String">
+    <sv:value>Text Snippets</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>17a1309f-55ca-4afd-9d78-0e58f0d448e1</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="insight-snippets">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:versionable</sv:value>
+      <sv:value>hippo:named</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>df2baaba-58e3-4565-8bcc-402972bb1eab</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Insight Snippets</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>0ee704b5-0e22-4aee-a117-c8505bae7e56</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:node sv:name="weekly-market-recap">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:named</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>b27aa456-e34c-4362-8511-ac2f695cdd9f</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:name" sv:type="String">
+        <sv:value>Weekly Market Recap</sv:value>
+      </sv:property>
+      <sv:node sv:name="weekly-market-recap">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:RichTextSnippet</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>e9f117db-976d-4259-af44-6ad02a666315</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>text-snippets/insight-snippets/weekly-market-recap/weekly-market-recap[3]</sv:value>
+          <sv:value>text-snippets/insight-snippets/weekly-market-recap/weekly-market-recap[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-01-15T20:43:51.888-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-01-15T22:34:06.186-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>db730653-e1ff-4702-973e-01e57d345113</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:richText">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;h2&gt;Weekly Market Recap&lt;/h2&gt;
+
+&lt;p&gt;Start the week off right with this one-page snapshot of headlines and market performance.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://localhost:8080/blob-gim/1383280029130/83456/weekly_market_recap.pdf?segment=AMERICAS_US_ADV&amp;amp;locale=en_US" target="_blank" title="View the Recap"&gt;View the Recap&lt;/a&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="#"&gt;&lt;strong&gt;Access the Chart of the Week&amp;nbsp;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="weekly-market-recap">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:RichTextSnippet</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ed39d75b-c025-40ea-bad9-a68fb3809650</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>text-snippets/insight-snippets/weekly-market-recap/weekly-market-recap[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-01-15T20:43:51.888-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-01-15T22:34:49.145-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>db730653-e1ff-4702-973e-01e57d345113</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:richText">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;h2&gt;Weekly Market Recap&lt;/h2&gt;
+
+&lt;p&gt;Start the week off right with this one-page snapshot of headlines and market performance.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://localhost:8080/blob-gim/1383280029130/83456/weekly_market_recap.pdf?segment=AMERICAS_US_ADV&amp;amp;locale=en_US" target="_blank" title="View the Recap"&gt;View the Recap&lt;/a&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="#"&gt;&lt;strong&gt;Access the Chart of the Week&amp;nbsp;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="weekly-market-recap">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:RichTextSnippet</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>76a43c42-6bb8-48d5-aaf2-d4fcf7d45ef2</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>text-snippets/insight-snippets/weekly-market-recap/weekly-market-recap[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-01-15T20:43:51.888-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-01-15T22:34:49.145-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2017-01-15T22:34:51.996-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>db730653-e1ff-4702-973e-01e57d345113</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:richText">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;h2&gt;Weekly Market Recap&lt;/h2&gt;
+
+&lt;p&gt;Start the week off right with this one-page snapshot of headlines and market performance.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://localhost:8080/blob-gim/1383280029130/83456/weekly_market_recap.pdf?segment=AMERICAS_US_ADV&amp;amp;locale=en_US" target="_blank" title="View the Recap"&gt;View the Recap&lt;/a&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="#"&gt;&lt;strong&gt;Access the Chart of the Week&amp;nbsp;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="weekly-economic-update">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:named</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>44ae6614-e7cb-45ea-8f7e-73e3bcc885bf</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:name" sv:type="String">
+        <sv:value>Weekly Economic Update</sv:value>
+      </sv:property>
+      <sv:node sv:name="weekly-economic-update">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:RichTextSnippet</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>82b4e00c-c663-49ca-ab17-4cf47e5b54ca</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>text-snippets/insight-snippets/weekly-economic-update/weekly-economic-update[2]</sv:value>
+          <sv:value>text-snippets/insight-snippets/weekly-economic-update/weekly-economic-update[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-01-15T20:44:49.226-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-01-15T22:35:11.687-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>0e9062f2-3775-4b60-bc9a-44d6673a1daf</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:richText">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;h2&gt;Weekly Economic Update&lt;/h2&gt;
+
+&lt;p&gt;Stay current on the economic landscape and note changes from week-to-week. Topics include growth, jobs, profits, inflation, rates, risks and themes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://localhost:8080/blob-gim/1383280029532/83456/economic_update-01092017.pdf?segment=AMERICAS_US_ADV&amp;amp;locale=en_US" target="_blank" title="Continue reading"&gt;Continue reading&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="weekly-economic-update">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:RichTextSnippet</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>4647c49f-86ec-4645-a323-3d7fe109abfe</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>text-snippets/insight-snippets/weekly-economic-update/weekly-economic-update[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-01-15T20:44:49.226-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-01-15T22:35:23.929-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>0e9062f2-3775-4b60-bc9a-44d6673a1daf</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:richText">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;h2&gt;Weekly Economic Update&lt;/h2&gt;
+
+&lt;p&gt;Stay current on the economic landscape and note changes from week-to-week. Topics include growth, jobs, profits, inflation, rates, risks and themes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://localhost:8080/blob-gim/1383280029532/83456/economic_update-01092017.pdf?segment=AMERICAS_US_ADV&amp;amp;locale=en_US" target="_blank" title="Continue reading"&gt;Continue reading&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="weekly-economic-update">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:RichTextSnippet</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>56e92d03-bd8e-49ef-bc69-12d1effa3bc5</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>text-snippets/insight-snippets/weekly-economic-update/weekly-economic-update[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-01-15T20:44:49.226-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-01-15T22:35:23.929-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2017-01-15T22:35:25.761-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>0e9062f2-3775-4b60-bc9a-44d6673a1daf</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:richText">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;h2&gt;Weekly Economic Update&lt;/h2&gt;
+
+&lt;p&gt;Stay current on the economic landscape and note changes from week-to-week. Topics include growth, jobs, profits, inflation, rates, risks and themes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://localhost:8080/blob-gim/1383280029532/83456/economic_update-01092017.pdf?segment=AMERICAS_US_ADV&amp;amp;locale=en_US" target="_blank" title="Continue reading"&gt;Continue reading&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="weekly-market-podcast">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:named</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>951d756a-d041-4709-a2d6-6d64814bda2a</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:name" sv:type="String">
+        <sv:value>Weekly Market Podcast</sv:value>
+      </sv:property>
+      <sv:node sv:name="weekly-market-podcast">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:RichTextSnippet</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>df1571b0-6207-4983-9efd-536d672e0882</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>text-snippets/insight-snippets/weekly-market-podcast/weekly-market-podcast[3]</sv:value>
+          <sv:value>text-snippets/insight-snippets/weekly-market-podcast/weekly-market-podcast[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-01-15T20:45:43.233-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-01-15T22:35:28.973-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>3cacbd8e-e40a-45f6-8730-a2db93f569c1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:richText">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;h2&gt;Weekly Market Podcast&lt;/h2&gt;
+
+&lt;p&gt;Dr. David Kelly’s weekly commentary&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://localhost:8080/us/en/asset-management/gim/adv/library/media/dr-david-kelly-s-weekly-podcast-january-9-2017-1383408831366" target="_self" title="Listen to podcast"&gt;Listen to podcast&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://localhost:8080/blob-gim/1383407652676/83456/MI-WC_Kelly_10917_funds.pdf?segment=AMERICAS_US_ADV&amp;amp;locale=en_US" target="_blank" title="Read the transcript"&gt;Read the transcript&lt;/a&gt;&lt;/p&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="weekly-market-podcast">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:RichTextSnippet</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>c6291a31-98f8-498a-8c72-e2d29d90153b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>text-snippets/insight-snippets/weekly-market-podcast/weekly-market-podcast[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-01-15T20:45:43.233-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-01-15T22:35:48.532-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>3cacbd8e-e40a-45f6-8730-a2db93f569c1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:richText">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;h2&gt;Weekly Market Podcast&lt;/h2&gt;
+
+&lt;p&gt;Dr. David Kelly’s weekly commentary&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://localhost:8080/us/en/asset-management/gim/adv/library/media/dr-david-kelly-s-weekly-podcast-january-9-2017-1383408831366" target="_self" title="Listen to podcast"&gt;Listen to podcast&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://localhost:8080/blob-gim/1383407652676/83456/MI-WC_Kelly_10917_funds.pdf?segment=AMERICAS_US_ADV&amp;amp;locale=en_US" target="_blank" title="Read the transcript"&gt;Read the transcript&lt;/a&gt;&lt;/p&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="weekly-market-podcast">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippoonspringboot:RichTextSnippet</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>34dc2d6e-69d6-4687-b095-7ff0a03305f3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>text-snippets/insight-snippets/weekly-market-podcast/weekly-market-podcast[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-01-15T20:45:43.233-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-01-15T22:35:48.532-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2017-01-15T22:35:50.509-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>3cacbd8e-e40a-45f6-8730-a2db93f569c1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippoonspringboot:richText">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;h2&gt;Weekly Market Podcast&lt;/h2&gt;
+
+&lt;p&gt;Dr. David Kelly’s weekly commentary&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://localhost:8080/us/en/asset-management/gim/adv/library/media/dr-david-kelly-s-weekly-podcast-january-9-2017-1383408831366" target="_self" title="Listen to podcast"&gt;Listen to podcast&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://localhost:8080/blob-gim/1383407652676/83456/MI-WC_Kelly_10917_funds.pdf?segment=AMERICAS_US_ADV&amp;amp;locale=en_US" target="_blank" title="Read the transcript"&gt;Read the transcript&lt;/a&gt;&lt;/p&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>
