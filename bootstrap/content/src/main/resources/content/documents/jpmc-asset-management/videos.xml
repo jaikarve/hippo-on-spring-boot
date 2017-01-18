@@ -59,7 +59,7 @@
         <sv:value>Rewarding Hard Work</sv:value>
       </sv:property>
       <sv:property sv:name="hippoonspringboot:videoLink" sv:type="String">
-        <sv:value>//www.youtube.com/embed/9UB7SJucDqU</sv:value>
+        <sv:value>//www.youtube.com/embed/N-bWFvEqjY8</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>draft</sv:value>
@@ -74,10 +74,10 @@
         <sv:value>2017-01-16T14:25:57.648-08:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-01-16T14:28:34.606-08:00</sv:value>
+        <sv:value>2017-01-18T07:19:01.312-08:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-        <sv:value>admin</sv:value>
+        <sv:value>editor</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>8187ee97-77bf-4613-8f93-89f5ced5528a</sv:value>
@@ -92,7 +92,6 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
-        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>665d044b-f8e1-44e1-8bae-c269e013b994</sv:value>
@@ -110,7 +109,7 @@
         <sv:value>Rewarding Hard Work</sv:value>
       </sv:property>
       <sv:property sv:name="hippoonspringboot:videoLink" sv:type="String">
-        <sv:value>//www.youtube.com/embed/9UB7SJucDqU</sv:value>
+        <sv:value>//www.youtube.com/embed/N-bWFvEqjY8</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>unpublished</sv:value>
@@ -125,10 +124,10 @@
         <sv:value>2017-01-16T14:25:57.648-08:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-01-16T14:28:59.028-08:00</sv:value>
+        <sv:value>2017-01-18T07:19:33.460-08:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-        <sv:value>admin</sv:value>
+        <sv:value>editor</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>8187ee97-77bf-4613-8f93-89f5ced5528a</sv:value>
@@ -160,7 +159,7 @@
         <sv:value>Rewarding Hard Work</sv:value>
       </sv:property>
       <sv:property sv:name="hippoonspringboot:videoLink" sv:type="String">
-        <sv:value>//www.youtube.com/embed/9UB7SJucDqU</sv:value>
+        <sv:value>//www.youtube.com/embed/N-bWFvEqjY8</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>published</sv:value>
@@ -175,13 +174,13 @@
         <sv:value>2017-01-16T14:25:57.648-08:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-01-16T14:28:59.028-08:00</sv:value>
+        <sv:value>2017-01-18T07:19:33.460-08:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-        <sv:value>admin</sv:value>
+        <sv:value>editor</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2017-01-16T14:29:01.775-08:00</sv:value>
+        <sv:value>2017-01-18T07:19:36.001-08:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>8187ee97-77bf-4613-8f93-89f5ced5528a</sv:value>

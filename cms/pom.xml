@@ -13,6 +13,10 @@
   <description>Example Hippo On Spring Boot CMS</description>
   <dependencies>
     <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-edition-indicator</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.onehippo.cms7.hst.dependencies</groupId>
       <artifactId>hst-repository-dependencies</artifactId>
       <type>pom</type>
@@ -71,17 +75,52 @@
       <artifactId>hippo-essentials-components-cms</artifactId>
       <scope>compile</scope>
     </dependency>
-
     <dependency>
       <groupId>org.onehippo.forge.exdocpickerbase</groupId>
       <artifactId>exdocpickerbase-field</artifactId>
     </dependency>
-
     <dependency>
       <groupId>com.google.apis</groupId>
       <artifactId>google-api-services-youtube</artifactId>
     </dependency>
-
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-advanced-search-frontend</artifactId>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-advanced-search-repository</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.onehippo.forge.channel-pagesup</groupId>
+      <artifactId>channel-pagesup-document-management-service</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-content-tagging</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-targeting-dependencies-cms</artifactId>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-taxonomy-api</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-taxonomy-addon-frontend</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-taxonomy-addon-repository</artifactId>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
   <build>
     <finalName>cms</finalName>

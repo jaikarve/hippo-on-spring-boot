@@ -12,4 +12,9 @@ public class RichTextSnippet extends BaseDocument {
     public HippoHtml getRichText() {
         return getHippoHtml("hippoonspringboot:richText");
     }
+
+    @HippoEssentialsGenerated(internalName = "hippostd:tags")
+    public String[] getTags() {
+        return getProperty("hippostd:tags");
+    }
 }

@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:workspace">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:workspace</sv:value>
+  </sv:property>
+  <sv:node sv:name="hst:sitemenus">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemenus</sv:value>
+    </sv:property>
+    <sv:node sv:name="main">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenu</sv:value>
+      </sv:property>
+      <sv:node sv:name="Products">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemenuitem</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="Insights">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemenuitem</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="Defined Contribution">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemenuitem</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="Tools &amp; Resources">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemenuitem</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="Partner With Us">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemenuitem</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="Library">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemenuitem</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hst:containers">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:containercomponentfolder</sv:value>
+    </sv:property>
+    <sv:node sv:name="insights">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containercomponentfolder</sv:value>
+      </sv:property>
+      <sv:node sv:name="top-left">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containercomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:lastmodified" sv:type="Date">
+          <sv:value>2017-01-15T21:50:33.208-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>HST.vBox</sv:value>
+        </sv:property>
+        <sv:node sv:name="banner">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containeritemcomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentclassname" sv:type="String">
+            <sv:value>com.jpmc.components.Banner</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:iconpath" sv:type="String">
+            <sv:value>images/essentials/catalog-component-icons/banner.png</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:label" sv:type="String">
+            <sv:value>Banner</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+            <sv:value>borderColor</sv:value>
+            <sv:value>bannerlocation</sv:value>
+            <sv:value>icon</sv:value>
+            <sv:value>separatorMargin</sv:value>
+            <sv:value>separatorBorderTop</sv:value>
+            <sv:value>offerBackgroundColor</sv:value>
+            <sv:value>separatorBorderBottom</sv:value>
+            <sv:value>title</sv:value>
+            <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+            <sv:value>#F07230</sv:value>
+            <sv:value>banners/investment-outlook-for-2017</sv:value>
+            <sv:value/>
+            <sv:value>20</sv:value>
+            <sv:value>off</sv:value>
+            <sv:value/>
+            <sv:value>off</sv:value>
+            <sv:value/>
+            <sv:value>webfile:/freemarker/jpmc/banner.ftl</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>banner</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>hst.item</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="top-right">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containercomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:lastmodified" sv:type="Date">
+          <sv:value>2017-01-15T22:01:38.592-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>HST.vBox</sv:value>
+        </sv:property>
+        <sv:node sv:name="banner">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containeritemcomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentclassname" sv:type="String">
+            <sv:value>com.jpmc.components.Banner</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:iconpath" sv:type="String">
+            <sv:value>images/essentials/catalog-component-icons/banner.png</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:label" sv:type="String">
+            <sv:value>Banner</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+            <sv:value>borderColor</sv:value>
+            <sv:value>bannerlocation</sv:value>
+            <sv:value>icon</sv:value>
+            <sv:value>separatorMargin</sv:value>
+            <sv:value>separatorBorderTop</sv:value>
+            <sv:value>offerBackgroundColor</sv:value>
+            <sv:value>separatorBorderBottom</sv:value>
+            <sv:value>title</sv:value>
+            <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+            <sv:value>#F07230</sv:value>
+            <sv:value>banners/seeing-the-present</sv:value>
+            <sv:value/>
+            <sv:value>20</sv:value>
+            <sv:value>off</sv:value>
+            <sv:value/>
+            <sv:value>off</sv:value>
+            <sv:value/>
+            <sv:value>webfile:/freemarker/jpmc/banner.ftl</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>banner</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>hst.item</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="banner1">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containeritemcomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentclassname" sv:type="String">
+            <sv:value>com.jpmc.components.Banner</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:iconpath" sv:type="String">
+            <sv:value>images/essentials/catalog-component-icons/banner.png</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:label" sv:type="String">
+            <sv:value>Banner</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+            <sv:value>borderColor</sv:value>
+            <sv:value>bannerlocation</sv:value>
+            <sv:value>icon</sv:value>
+            <sv:value>separatorMargin</sv:value>
+            <sv:value>separatorBorderTop</sv:value>
+            <sv:value>offerBackgroundColor</sv:value>
+            <sv:value>separatorBorderBottom</sv:value>
+            <sv:value>title</sv:value>
+            <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+            <sv:value>#F07230</sv:value>
+            <sv:value>banners/kindness-of-strangers</sv:value>
+            <sv:value/>
+            <sv:value>20</sv:value>
+            <sv:value>off</sv:value>
+            <sv:value/>
+            <sv:value>off</sv:value>
+            <sv:value/>
+            <sv:value>webfile:/freemarker/jpmc/banner/small-banner.ftl</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>banner</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>hst.item</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="middle">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containercomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:lastmodified" sv:type="Date">
+          <sv:value>2017-01-15T22:33:44.674-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>HST.vBox</sv:value>
+        </sv:property>
+        <sv:node sv:name="richtextcollection">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containeritemcomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentclassname" sv:type="String">
+            <sv:value>com.jpmc.components.RichTextCollection</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:iconpath" sv:type="String">
+            <sv:value>images/essentials/catalog-component-icons/simple-content.png</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:label" sv:type="String">
+            <sv:value>Rich Text Collection</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+            <sv:value>borderColor</sv:value>
+            <sv:value>scope</sv:value>
+            <sv:value>icon</sv:value>
+            <sv:value>separatorMargin</sv:value>
+            <sv:value>separatorBorderTop</sv:value>
+            <sv:value>constraint</sv:value>
+            <sv:value>offerBackgroundColor</sv:value>
+            <sv:value>separatorBorderBottom</sv:value>
+            <sv:value>title</sv:value>
+            <sv:value>tags</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+            <sv:value>#F07230</sv:value>
+            <sv:value>text-snippets/insight-snippets</sv:value>
+            <sv:value/>
+            <sv:value>20</sv:value>
+            <sv:value>off</sv:value>
+            <sv:value/>
+            <sv:value/>
+            <sv:value>off</sv:value>
+            <sv:value/>
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>rich-text-collection</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>hst.item</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="middle-2">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containercomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:lastmodified" sv:type="Date">
+          <sv:value>2017-01-16T00:19:15.466-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>HST.vBox</sv:value>
+        </sv:property>
+        <sv:node sv:name="insightcollection">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containeritemcomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentclassname" sv:type="String">
+            <sv:value>com.jpmc.components.FeaturedInsights</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:iconpath" sv:type="String">
+            <sv:value>images/essentials/catalog-component-icons/simple-content.png</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:label" sv:type="String">
+            <sv:value>Featured Insights</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+            <sv:value>titleTextColor</sv:value>
+            <sv:value>document3</sv:value>
+            <sv:value>backgroundImage</sv:value>
+            <sv:value>separatorMargin</sv:value>
+            <sv:value>document2</sv:value>
+            <sv:value>document1</sv:value>
+            <sv:value>title</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+            <sv:value>#FFFFFF</sv:value>
+            <sv:value>market-insights/debt-myths</sv:value>
+            <sv:value>/content/gallery/jpmc/banners/1383217111217_bridge.jpg</sv:value>
+            <sv:value>20</sv:value>
+            <sv:value>market-insights/nirp</sv:value>
+            <sv:value>market-insights/earnings-update</sv:value>
+            <sv:value>Featured Market Insights</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>featured-insights</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>HST.Item</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="bottom-left">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containercomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:lastmodified" sv:type="Date">
+          <sv:value>2017-01-16T00:30:32.244-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>HST.vBox</sv:value>
+        </sv:property>
+        <sv:node sv:name="banner">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containeritemcomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentclassname" sv:type="String">
+            <sv:value>com.jpmc.components.Banner</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:iconpath" sv:type="String">
+            <sv:value>images/essentials/catalog-component-icons/banner.png</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:label" sv:type="String">
+            <sv:value>Banner</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+            <sv:value>borderColor</sv:value>
+            <sv:value>bannerlocation</sv:value>
+            <sv:value>icon</sv:value>
+            <sv:value>separatorMargin</sv:value>
+            <sv:value>separatorBorderTop</sv:value>
+            <sv:value>offerBackgroundColor</sv:value>
+            <sv:value>separatorBorderBottom</sv:value>
+            <sv:value>title</sv:value>
+            <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+            <sv:value>#F07230</sv:value>
+            <sv:value>banners/quarterly-perspectives</sv:value>
+            <sv:value/>
+            <sv:value>20</sv:value>
+            <sv:value>off</sv:value>
+            <sv:value/>
+            <sv:value>off</sv:value>
+            <sv:value/>
+            <sv:value>webfile:/freemarker/jpmc/banner/perspective.ftl</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>banner</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>hst.item</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="bottom-right">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containercomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:lastmodified" sv:type="Date">
+          <sv:value>2017-01-16T00:30:32.244-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>HST.vBox</sv:value>
+        </sv:property>
+        <sv:node sv:name="banner">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containeritemcomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentclassname" sv:type="String">
+            <sv:value>com.jpmc.components.Banner</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:iconpath" sv:type="String">
+            <sv:value>images/essentials/catalog-component-icons/banner.png</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:label" sv:type="String">
+            <sv:value>Banner</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+            <sv:value>borderColor</sv:value>
+            <sv:value>bannerlocation</sv:value>
+            <sv:value>icon</sv:value>
+            <sv:value>separatorMargin</sv:value>
+            <sv:value>separatorBorderTop</sv:value>
+            <sv:value>offerBackgroundColor</sv:value>
+            <sv:value>separatorBorderBottom</sv:value>
+            <sv:value>title</sv:value>
+            <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+            <sv:value>#F07230</sv:value>
+            <sv:value>banners/portfolio-discussions</sv:value>
+            <sv:value/>
+            <sv:value>20</sv:value>
+            <sv:value>off</sv:value>
+            <sv:value/>
+            <sv:value>off</sv:value>
+            <sv:value/>
+            <sv:value>webfile:/freemarker/jpmc/banner/perspective.ftl</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>banner</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>hst.item</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="bottom-2">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containercomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:lastmodified" sv:type="Date">
+          <sv:value>2017-01-16T11:12:16.178-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>HST.vBox</sv:value>
+        </sv:property>
+        <sv:node sv:name="moreinsights">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containeritemcomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentclassname" sv:type="String">
+            <sv:value>com.jpmc.components.MoreInsights</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:iconpath" sv:type="String">
+            <sv:value>images/essentials/catalog-component-icons/banner.png</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:label" sv:type="String">
+            <sv:value>More Insights</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+            <sv:value>moreDocument</sv:value>
+            <sv:value>title</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+            <sv:value>more-like-this/more-insights</sv:value>
+            <sv:value>More from Insights</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>more-insights</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>HST.Item</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="bottom-3">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containercomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:lastmodified" sv:type="Date">
+          <sv:value>2017-01-17T14:27:31.550-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>HST.vBox</sv:value>
+        </sv:property>
+        <sv:node sv:name="hero">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containeritemcomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentclassname" sv:type="String">
+            <sv:value>com.jpmc.components.Banner</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:iconpath" sv:type="String">
+            <sv:value>images/essentials/catalog-component-icons/banner.png</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:label" sv:type="String">
+            <sv:value>Hero</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+            <sv:value>borderColor</sv:value>
+            <sv:value>bannerlocation</sv:value>
+            <sv:value>icon</sv:value>
+            <sv:value>separatorMargin</sv:value>
+            <sv:value>separatorBorderTop</sv:value>
+            <sv:value>offerBackgroundColor</sv:value>
+            <sv:value>separatorBorderBottom</sv:value>
+            <sv:value>title</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+            <sv:value>#F07230</sv:value>
+            <sv:value>banners/jp-morgan-insights-app</sv:value>
+            <sv:value/>
+            <sv:value>20</sv:value>
+            <sv:value>off</sv:value>
+            <sv:value/>
+            <sv:value>off</sv:value>
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>hero</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>HST.Item</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hst:pages">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:pages</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hst:sitemap">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemap</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

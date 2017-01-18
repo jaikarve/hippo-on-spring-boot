@@ -452,7 +452,10 @@
           <sv:value>hst:containercomponent</sv:value>
         </sv:property>
         <sv:property sv:name="hst:lastmodified" sv:type="Date">
-          <sv:value>2017-01-16T11:53:39.518-08:00</sv:value>
+          <sv:value>2017-01-17T14:27:31.550-08:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:lockedby" sv:type="String">
+          <sv:value>editor</sv:value>
         </sv:property>
         <sv:property sv:name="hst:xtype" sv:type="String">
           <sv:value>HST.vBox</sv:value>

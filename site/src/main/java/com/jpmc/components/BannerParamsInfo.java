@@ -15,15 +15,12 @@
  */
 package com.jpmc.components;
 
-import org.hippoecm.hst.core.parameters.FieldGroup;
-import org.hippoecm.hst.core.parameters.FieldGroupList;
-import org.hippoecm.hst.core.parameters.JcrPath;
-import org.hippoecm.hst.core.parameters.Parameter;
+import org.hippoecm.hst.core.parameters.*;
 
 @FieldGroupList({
         @FieldGroup(
                 titleKey = "banner",
-                value = { "bannerlocation"}
+                value = { "bannerlocation", "language"}
         )
 })
 
@@ -32,10 +29,15 @@ import org.hippoecm.hst.core.parameters.Parameter;
  */
 public interface BannerParamsInfo {
     String PARAM_BANNERLOCATION = "bannerlocation";
+    String PARAM_LANGUAGE = "language";
 
     @Parameter(name = PARAM_BANNERLOCATION, required = true, displayName = "Banner")
     @JcrPath(isRelative = true, pickerSelectableNodeTypes = {"hippoonspringboot:bannerdocument"}, pickerConfiguration = "cms-pickers/documents-only")
     String getBannerLocation();
+
+    @Parameter(name = PARAM_LANGUAGE, defaultValue = "English")
+    @DropDownList(value = {"English", "French"})
+    String getTranslation();
 
 }
  

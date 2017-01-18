@@ -43,6 +43,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>ae17e7fe-41f7-4552-90df-5b313916b119</sv:value>
@@ -54,6 +55,9 @@
       </sv:property>
       <sv:property sv:name="hippoonspringboot:title" sv:type="String">
         <sv:value>The investment outlook for 2017: Economic warming and political warnings</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>draft</sv:value>
@@ -68,7 +72,7 @@
         <sv:value>2017-01-15T20:28:26.836-08:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-01-16T15:12:59.753-08:00</sv:value>
+        <sv:value>2017-01-18T07:04:08.202-08:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -115,6 +119,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>95189b1f-2b53-4ee1-8baa-e887ed4c06bc</sv:value>
@@ -188,6 +193,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>23028253-88a5-459d-84e9-d6fb75a2b117</sv:value>
@@ -279,6 +285,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>24a43755-609f-4f52-9b54-a3c32af7806f</sv:value>
@@ -351,6 +358,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>b60968fd-7415-4eb3-b2c6-ee500d78b520</sv:value>
@@ -424,6 +432,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>829a96d0-338c-41c5-b6b6-0a2012c0e006</sv:value>
@@ -515,6 +524,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>6c8090dc-eedd-411e-8313-2fbb9da3684f</sv:value>
@@ -585,6 +595,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>ba8404d3-e999-4aff-b0be-45fa6c70b4f5</sv:value>
@@ -656,6 +667,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>c99f3807-ebca-4b59-9bbf-da487b2abd21</sv:value>
@@ -745,6 +757,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>f1d9a708-3bbd-4747-989d-2d1856104e7c</sv:value>
@@ -815,6 +828,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>62fdd050-9d04-4847-a245-6b45ac57db6e</sv:value>
@@ -886,6 +900,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>ee066c1f-97af-44d4-9046-3a53b38b779f</sv:value>
@@ -975,6 +990,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>bb50607e-0ce7-4bf3-af59-01ee4a27600d</sv:value>
@@ -1045,6 +1061,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>9b8f9caa-70f4-42eb-ba1b-7a6ddc32bb26</sv:value>
@@ -1116,6 +1133,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>5c90392f-4b1e-4ffa-b76f-50f346716a9e</sv:value>
@@ -1205,6 +1223,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>b5b07025-446c-4bcd-ae4e-686b5eccfb00</sv:value>
@@ -1275,6 +1294,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>85831fbf-2f4d-4590-b9a0-a1f4580eef86</sv:value>
@@ -1346,6 +1366,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>7f4c6ebe-8fc3-4cde-a17d-f4763bef0b88</sv:value>
@@ -1460,6 +1481,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>a0b74817-2daa-4005-ae33-14d297f72653</sv:value>
@@ -1530,6 +1552,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:versionable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>27371cce-6281-4447-a19f-e9bd98214bbf</sv:value>
@@ -1601,6 +1624,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>76fcad0d-8bd7-48a7-aa62-5a44eb02340d</sv:value>
@@ -1690,6 +1714,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>37c9c50b-f775-4668-9aff-9c06c246247a</sv:value>
@@ -1762,6 +1787,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:versionable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>920f84a6-a476-4f74-a7fa-9a99a9727f02</sv:value>
@@ -1835,6 +1861,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>e9393f01-d735-4790-b59d-ee0c8ff621c3</sv:value>
@@ -1926,6 +1953,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>fbac17e7-c130-435c-8ee6-8806af61d9fc</sv:value>
@@ -1998,6 +2026,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:versionable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>0160937f-5876-496c-8254-aed9aa7b8948</sv:value>
@@ -2071,6 +2100,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>cc69b9e2-d334-4ce4-92fb-f47a58ae0a60</sv:value>
@@ -2162,6 +2192,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>ae138326-8050-47fc-bb46-8e8953ea31a0</sv:value>
@@ -2234,6 +2265,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:versionable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>ce4a34e4-193f-4a57-af8d-c5d54f12aa16</sv:value>
@@ -2307,6 +2339,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>cf8b197d-9dea-48d6-82fc-5988f5b27e25</sv:value>
@@ -2398,6 +2431,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>f98334e8-0db6-4620-b0cb-3318a45e47ca</sv:value>
@@ -2470,6 +2504,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:versionable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>8f4228d0-44fe-457b-ab19-82e25ed56395</sv:value>
@@ -2543,6 +2578,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>1f151fd3-add5-4806-b379-ee6f0684d09b</sv:value>
@@ -2634,6 +2670,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>50b3469b-d5a9-4972-9df3-b08e2c4cd88c</sv:value>
@@ -2706,6 +2743,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:versionable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>b8b7a875-c2ea-4dff-96d7-ea6c7c208030</sv:value>
@@ -2779,6 +2817,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>634dc0ab-80fd-459b-a1d7-6a6099d86250</sv:value>
@@ -2870,6 +2909,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>5542399c-056c-4164-bd7a-ed19a58279dc</sv:value>
@@ -2942,6 +2982,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:versionable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>7f89d437-9c2c-4853-83ee-877c44de1220</sv:value>
@@ -3015,6 +3056,7 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippostd:taggable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>34b83613-15b3-46ca-a55b-3f1bd7737b99</sv:value>

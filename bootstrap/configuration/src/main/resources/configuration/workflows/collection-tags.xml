@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="collection-tags">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hipposys:workflowcategory</sv:value>
+  </sv:property>
+  <sv:node sv:name="collections">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>frontend:workflow</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:classname" sv:type="String">
+      <sv:value>com.jpmc.bulkactions.CollectionTaggingWorkflowImpl</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:display" sv:type="String">
+      <sv:value>Collections workflow</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:nodetype" sv:type="String">
+      <sv:value>hippocollection:collection</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:privileges" sv:type="String" sv:multiple="true">
+      <sv:value>hippo:editor</sv:value>
+    </sv:property>
+    <sv:node sv:name="hipposys:types">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hipposys:types</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="frontend:renderer">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>frontend:plugin</sv:value>
+      </sv:property>
+      <sv:property sv:name="plugin.class" sv:type="String">
+        <sv:value>com.jpmc.bulkactions.CollectionTaggingWorkflowPlugin</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>

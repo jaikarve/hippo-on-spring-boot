@@ -389,4 +389,61 @@
       <sv:value>/content/documents/jpmc-asset-management</sv:value>
     </sv:property>
   </sv:node>
+
+<sv:node sv:name="hippo-on-spring-boot-content-documents-jpmc-test">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30054.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/jpmc-test.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents</sv:value>
+    </sv:property>
+  </sv:node>
+<sv:node sv:name="hippo-on-spring-boot-content-documents-jpmc-test-banners">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30055.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/jpmc-test/banners.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/jpmc-test</sv:value>
+    </sv:property>
+  </sv:node>
+<sv:node sv:name="hippo-on-spring-boot-content-documents-jpmc-asset-management-value-lists">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30055.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/jpmc-asset-management/value-lists.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/jpmc-asset-management</sv:value>
+    </sv:property>
+  </sv:node>
+<sv:node sv:name="hippo-on-spring-boot-content-taxonomies">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30054.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>taxonomies.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>

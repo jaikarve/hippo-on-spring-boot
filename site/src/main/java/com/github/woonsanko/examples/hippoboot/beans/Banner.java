@@ -29,4 +29,9 @@ public class Banner extends BaseDocument {
     public Imageset getImage() {
         return getLinkedBean("hippoonspringboot:image", Imageset.class);
     }
+
+    @HippoEssentialsGenerated(internalName = "hippostd:tags")
+    public String[] getTags() {
+        return getProperty("hippostd:tags");
+    }
 }

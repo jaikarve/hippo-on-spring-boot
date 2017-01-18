@@ -198,6 +198,14 @@
     <appender-ref ref="messages"/>
   </logger>
 
+  <logger name="com.onehippo.cms7.targeting.frontend">
+    <level value="warn"/>
+  </logger>
+
+  <logger name="com.onehippo.cms7.targeting">
+    <level value="warn"/>
+  </logger>
+
   <root>
     <level value="warn"/>
     <appender-ref ref="site"/>

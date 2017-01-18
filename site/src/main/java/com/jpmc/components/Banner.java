@@ -35,15 +35,26 @@ public class Banner extends BaseComponent {
         final HstRequestContext ctx = request.getRequestContext();
         BannerParamsInfo paramsInfo = getComponentParametersInfo(request);
         String bannerLocation = paramsInfo.getBannerLocation();
+        String translation = paramsInfo.getTranslation();
         log.debug("banner location specified in hst is {}", bannerLocation);
 
         final HippoBean document = ctx.getSiteContentBaseBean().getBean(bannerLocation);
+
+        HippoBean translatedDoc = null;
+
+        if (translation.equals("French")) {
+            translatedDoc = document.getAvailableTranslations().getTranslation("fr");
+        }
+
+        else {
+            translatedDoc = document;
+        }
 
         log.debug("banner document is {}", document);
 
         if (document == null) {
             return;
         }
-        request.setAttribute("document", document);
+        request.setAttribute("document", translatedDoc);
     }
 }

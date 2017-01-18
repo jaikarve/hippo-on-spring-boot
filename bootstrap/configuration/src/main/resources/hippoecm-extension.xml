@@ -1447,4 +1447,228 @@
       <sv:value>/hippo:namespaces/hippoonspringboot</sv:value>
     </sv:property>
   </sv:node>
+<sv:node sv:name="hippo-on-spring-boot-hst-hst-hst-configurations-jpmc-asset-mgmt-test-hst-abstractpages">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/jpmc-asset-mgmt-test/abstractpages.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/jpmc-asset-mgmt-test</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo-on-spring-boot-hst-hst-hst-channels-jpmc-asset-mgmt-test">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30054.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/channels/jpmc-asset-mgmt-test.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:channels</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo-on-spring-boot-hst-hst-hst-configurations-jpmc-asset-mgmt-test-hst-sitemap">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/jpmc-asset-mgmt-test/sitemap.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/jpmc-asset-mgmt-test</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo-on-spring-boot-hst-hst-hst-configurations-jpmc-asset-mgmt-test-hst-pages-homepage">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30057.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/jpmc-asset-mgmt-test/pages/homepage.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/jpmc-asset-mgmt-test/hst:pages</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo-on-spring-boot-hst-hst-hst-configurations-jpmc-asset-mgmt-test-hst-prototypepages">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/jpmc-asset-mgmt-test/prototypepages.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/jpmc-asset-mgmt-test</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo-on-spring-boot-hst-hst-hst-configurations-jpmc-asset-mgmt-test-hst-prototypepages-split-column">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30057.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/jpmc-asset-mgmt-test/prototypepages/split-column.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/jpmc-asset-mgmt-test/hst:prototypepages</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo-on-spring-boot-hst-hst-hst-configurations-jpmc-asset-mgmt-test-hst-abstractpages-base">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30057.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/jpmc-asset-mgmt-test/abstractpages/base.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/jpmc-asset-mgmt-test/hst:abstractpages</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo-on-spring-boot-hst-hst-hst-configurations-jpmc-asset-mgmt-test-hst-prototypepages-one-column">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30057.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/jpmc-asset-mgmt-test/prototypepages/one-column.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/jpmc-asset-mgmt-test/hst:prototypepages</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo-on-spring-boot-hst-hst-hst-configurations-jpmc-asset-mgmt-test-hst-workspace">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/jpmc-asset-mgmt-test/workspace.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/jpmc-asset-mgmt-test</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo-on-spring-boot-hst-hst-hst-configurations-jpmc-asset-mgmt-test-hst-pages">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/jpmc-asset-mgmt-test/pages.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/jpmc-asset-mgmt-test</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo-on-spring-boot-hst-hst-hst-configurations-jpmc-asset-mgmt-test-hst-catalog">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/jpmc-asset-mgmt-test/catalog.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/jpmc-asset-mgmt-test</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo-on-spring-boot-hst-hst-hst-configurations-jpmc-asset-mgmt-test-hst-templates">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/jpmc-asset-mgmt-test/templates.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/jpmc-asset-mgmt-test</sv:value>
+    </sv:property>
+  </sv:node>
+<sv:node sv:name="hippo-on-spring-boot-hippo-configuration-hippo-workflows-collection-tags">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30000.3</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>configuration/workflows/collection-tags.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hippo:configuration/hippo:workflows</sv:value>
+    </sv:property>
+  </sv:node>
+<sv:node sv:name="hippo-on-spring-boot-tags">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30000.3</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>tags.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/</sv:value>
+    </sv:property>
+  </sv:node>
+<sv:node sv:name="hippo-on-spring-boot-hippo-configuration-hippo-workflows-translate">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30000.3</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>configuration/workflows/translate.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hippo:configuration/hippo:workflows</sv:value>
+    </sv:property>
+  </sv:node>
+<sv:node sv:name="hippo-on-spring-boot-targeting-targeting-targeting-characteristics-country">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30000.3</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>targeting/characteristics/country.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/targeting:targeting/targeting:characteristics</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>

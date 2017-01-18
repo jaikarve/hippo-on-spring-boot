@@ -1,4 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:esv="http://www.onehippo.org/jcr/xmlimport" sv:name="cms" esv:merge="combine">
+  <sv:node sv:name="cms-advanced-search" esv:merge="combine">
+    <sv:node sv:name="titlePropertyFilter">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>frontend:plugin</sv:value>
+      </sv:property>
+      <sv:property sv:name="filterPropertyName" sv:type="String">
+        <sv:value>hippoonspringboot:title</sv:value>
+      </sv:property>
+      <sv:property sv:name="filterPropertyType" sv:type="String">
+        <sv:value>text</sv:value>
+      </sv:property>
+      <sv:property sv:name="plugin.class" sv:type="String">
+        <sv:value>com.onehippo.cms7.search.frontend.filters.GenericPropertyFilterPlugin</sv:value>
+      </sv:property>
+      <sv:property sv:name="wicket.id" sv:type="String">
+        <sv:value>${search.extensions}</sv:value>
+      </sv:property>
+      <sv:property sv:name="wicket.model" sv:type="String">
+        <sv:value>${model.search}</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="workflowPlugin" esv:merge="combine">
+      <sv:property sv:name="workflow.categories" sv:type="String" esv:merge="override" sv:multiple="true">
+        <sv:value>collections</sv:value>
+        <sv:value>collection-tags</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="genericFilters" esv:merge="combine">
+      <sv:property sv:name="document.type.excluded" sv:type="String" esv:merge="override" sv:multiple="true">
+        <sv:value>hippoonspringboot:basedocument</sv:value>
+        <sv:value>hippoonspringboot:account</sv:value>
+        <sv:value>hippoonspringboot:author</sv:value>
+        <sv:value>hippoonspringboot:blogpost</sv:value>
+        <sv:value>hippoonspringboot:contentdocument</sv:value>
+        <sv:value>hippoonspringboot:eventsdocument</sv:value>
+        <sv:value>hippoonspringboot:MoreLikeThisCompound</sv:value>
+      </sv:property>
+      <sv:property sv:name="document.type.namespaces" sv:type="String" esv:merge="override" sv:multiple="true">
+        <sv:value>hippoonspringboot</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
   <sv:node sv:name="cms-services" esv:merge="combine">
     <sv:node sv:name="galleryProcessorService" esv:merge="combine">
       <sv:node sv:name="hippoonspringboot:largesquare">

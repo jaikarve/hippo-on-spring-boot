@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="banners">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:versionable</sv:value>
+    <sv:value>hippo:named</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>6a226075-c37a-4c41-a089-9e88995d6ef8</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:name" sv:type="String">
+    <sv:value>Banners</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-banner-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>5e8fae7e-499a-4815-8006-e8d43f62834b</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>fr</sv:value>
+  </sv:property>
+  <sv:node sv:name="investment-outlook-for-2017">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>65e9a2c8-014d-428b-a232-c8c724509356</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Investment Outlook for 2017</sv:value>
+    </sv:property>
+    <sv:node sv:name="investment-outlook-for-2017">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippoonspringboot:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>0e7a43d8-a01d-4d5c-979c-bfcf5f141c94</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/investment-outlook-for-2017/investment-outlook-for-2017[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippoonspringboot:title" sv:type="String">
+        <sv:value>Perspectives d'investissement pour 2017: Réchauffement économique et avertissements politiques</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-01-15T20:28:26.836-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-01-17T20:05:27.185-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>883c7400-3fbe-43a3-a3a2-82299b65dd21</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippoonspringboot:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt; L&amp;#39;économie mondiale semble être le renforcement de son entrée dans 2017, mais les menaces à la croissance continue sont de plus en plus clair. Explorez notre investissement perspectives 2017. &lt;/p&gt;&lt;div&gt; &lt;a class="secondary-link" href="/us/en/asset-management/gim/adv/insights/market-bulletin-2017-outlook" target="_self" title="continuer la lecture"&gt;continuer la lecture&lt;/a&gt; &lt;/div&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>8057e553-5a5e-4b29-9055-b3cd90a5182f</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="investment-outlook-for-2017">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippoonspringboot:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>dbda0120-e408-4796-af61-5840320fd527</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/investment-outlook-for-2017/investment-outlook-for-2017</sv:value>
+        <sv:value>banners/investment-outlook-for-2017/investment-outlook-for-2017[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippoonspringboot:title" sv:type="String">
+        <sv:value>Perspectives d'investissement pour 2017: Réchauffement économique et avertissements politiques</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-01-15T20:28:26.836-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-01-17T20:05:23.162-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>883c7400-3fbe-43a3-a3a2-82299b65dd21</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippoonspringboot:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt; L&amp;#39;économie mondiale semble être le renforcement de son entrée dans 2017, mais les menaces à la croissance continue sont de plus en plus clair. Explorez notre investissement perspectives 2017. &lt;/p&gt;&lt;div&gt; &lt;a class="secondary-link" href="/us/en/asset-management/gim/adv/insights/market-bulletin-2017-outlook" target="_self" title="continuer la lecture"&gt;continuer la lecture&lt;/a&gt; &lt;/div&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>8057e553-5a5e-4b29-9055-b3cd90a5182f</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="investment-outlook-for-2017">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippoonspringboot:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>7ecd519a-61a1-4016-b20b-abffd90e1bf1</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/investment-outlook-for-2017/investment-outlook-for-2017</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippoonspringboot:title" sv:type="String">
+        <sv:value>Perspectives d'investissement pour 2017: Réchauffement économique et avertissements politiques</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-01-15T20:28:26.836-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-01-17T20:05:27.185-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2017-01-17T20:05:29.771-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>883c7400-3fbe-43a3-a3a2-82299b65dd21</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippoonspringboot:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt; L&amp;#39;économie mondiale semble être le renforcement de son entrée dans 2017, mais les menaces à la croissance continue sont de plus en plus clair. Explorez notre investissement perspectives 2017. &lt;/p&gt;&lt;div&gt; &lt;a class="secondary-link" href="/us/en/asset-management/gim/adv/insights/market-bulletin-2017-outlook" target="_self" title="continuer la lecture"&gt;continuer la lecture&lt;/a&gt; &lt;/div&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>8057e553-5a5e-4b29-9055-b3cd90a5182f</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="seeing-the-present">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>94cfd3b8-e2dc-48b8-82e2-bcce8d9c571a</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Seeing the PResent</sv:value>
+    </sv:property>
+    <sv:node sv:name="seeing-the-present">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippoonspringboot:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>36bfc37d-2ac4-4043-bcc6-60b9ecdb14b5</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/seeing-the-present/seeing-the-present[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippoonspringboot:title" sv:type="String">
+        <sv:value>Seeing the present with clarity</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-01-15T20:33:34.782-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-01-18T07:17:09.771-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>editor</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>c69d1c53-311c-4a4c-a16e-4d03e6f74f89</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippoonspringboot:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt; Il y a une source qui va vous donner un avantage intelligent. Le programme JP Morgan Asset Management Market Insights met la puissance de l&amp;#39;information dans vos mains. &lt;/p&gt;&lt;p&gt; &lt;a href="http://localhost:8080/us/en/asset-management/gim/adv/library/media/market-insights-seeing-the-present-with-clarity-1383300968748" target="_self" title="Voir la vidéo"&gt;Voir&lt;/a&gt; la &lt;a href="http://localhost:8080/us/en/asset-management/gim/adv/library/media/market-insights-seeing-the-present-with-clarity-1383300968748" target="_self" title="Voir la vidéo"&gt;vidéo&lt;/a&gt; &lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>3ba90c37-7f0b-408d-8d8a-04631aa138e1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="seeing-the-present">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippoonspringboot:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>83106ef7-658d-4f4f-871f-d211a4740ea0</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/seeing-the-present/seeing-the-present</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippoonspringboot:title" sv:type="String">
+        <sv:value>Seeing the present with clarity</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-01-15T20:33:34.782-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-01-18T07:17:09.771-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>editor</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2017-01-18T07:54:03.897-08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>c69d1c53-311c-4a4c-a16e-4d03e6f74f89</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippoonspringboot:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt; Il y a une source qui va vous donner un avantage intelligent. Le programme JP Morgan Asset Management Market Insights met la puissance de l&amp;#39;information dans vos mains. &lt;/p&gt;&lt;p&gt; &lt;a href="http://localhost:8080/us/en/asset-management/gim/adv/library/media/market-insights-seeing-the-present-with-clarity-1383300968748" target="_self" title="Voir la vidéo"&gt;Voir&lt;/a&gt; la &lt;a href="http://localhost:8080/us/en/asset-management/gim/adv/library/media/market-insights-seeing-the-present-with-clarity-1383300968748" target="_self" title="Voir la vidéo"&gt;vidéo&lt;/a&gt; &lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>3ba90c37-7f0b-408d-8d8a-04631aa138e1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="hippoonspringboot:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>
